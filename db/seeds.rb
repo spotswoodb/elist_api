@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# podcasts = Podcast.create([{ name: "Business, Life, and Ayahuasca with Daniel Cleland" }, { name: 'Be You Podcast'}])
+
+Contact.create([
+    # { first_name: 'Daniel', last_name: 'Cleland', email: 'Dan@soltara.co', role: 'Host', podcast_id: 1}
+    # { first_name: 'Jill', last_name: 'Herman', email: 'Jillherman@outlook.com', role: 'Host', podcast_id: 2}
+])
+
