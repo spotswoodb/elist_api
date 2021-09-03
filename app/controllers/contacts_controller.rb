@@ -3,9 +3,9 @@ class ContactsController < ApplicationController
 
   # GET /contacts
   def index
-    @contacts = Contact.all
+    @podcast = Podcast.find(params[:podcast_id])
 
-    render json: @contacts
+    render json: @podcast.contacts
   end
 
   # GET /contacts/1
